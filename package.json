@@ -4,7 +4,7 @@
   "description": "app to create team profile generator ",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "Lib"
   },
   "scripts": {
     "test": "jest"
@@ -23,6 +23,7 @@
     "jest": "^26.0.1"
   },
   "dependencies": {
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "jest": "^26.0.1"
   }
 }
