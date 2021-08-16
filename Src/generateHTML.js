@@ -57,14 +57,15 @@ const generateIntern = function(intern) {
 
 generateHTML = (data) => {
     pageArray = [];
-    for (let i = 0; i > data.length; i++) {
+
+    for (let i = 0; i < data.length; i++) {
         const employee = data[i];
         const role = employee.getRole();
 
 
         if (role === 'Manager') {
             const managerCard = generateManager(employee);
-            pageArray.push(managerCard)
+            pageArray.push(managerCard);
         }
 
         if (role === 'Engineer') {
@@ -127,4 +128,4 @@ const generateTeamPage = function (employeeCards) {
 `;
 }
 
-module.exports = generateHTML
+module.exports = generateHTML;

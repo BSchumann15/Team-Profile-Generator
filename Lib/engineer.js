@@ -1,4 +1,4 @@
-const Employee = require('./Lib/employer.js');
+const Employee = require('./Lib/employer');
 
 class Engineer extends Employee {
     constructor(name, id, email, github) {
