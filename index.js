@@ -67,8 +67,8 @@ const addManager = () => {
     .then(managerInput => {
         const {name, id, email, officeNumber} = managerInput;
         const manager = new Manager (name, id, email, officeNumber);
-        teamArray.push(Manager);
-        console.log(Manager);
+        teamArray.push(manager);
+        console.log(manager);
     })
 };
 
@@ -157,18 +157,18 @@ const addEmployee = () => {
     ])
 
 .then(employeeData => {
-let {name, id, email, role, github, school, confirmAddemployee} = employeeData;
+let {name, id, email, role, github, school, confirmAddEmployee} = employeeData;
 let employee;
 
 if (role === "Engineer") {
     employee =  new Engineer (name, id, email, github);
     console.log(employee);       
-} else if (role === 'Intern') {
+} else if (role === "Intern") {
     employee = new Intern (name, id ,email, github);
     console.log(employee);
 }
 teamArray.push(employee);
-if (comfirmAddemployee) {
+if (comfirmAddEmployee) {
     return addEmployee(teamArray);
 } else {
     return teamArray;

@@ -13,12 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/BSchumann15/Team-Profile-Generator.git"
   },
-  "author": "Blake Schumann",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BSchumann15/Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/BSchumann15/Team-Profile-Generator/blob/main/README.md",
+  "homepage": "https://github.com/BSchumann15/Team-Profile-Generator#readme",
   "devDependencies": {
     "jest": "^26.0.1"
   },
